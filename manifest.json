@@ -1,0 +1,28 @@
+{
+  "name": "Keyboard Shortcut",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Leo's preferred shortcut",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "commands": {
+    "switch-tab-focus-left": {
+      "suggested_key": {
+        "default": "Alt+Left"
+      },
+      "description": "Switch tab focus left"
+    },
+    "switch-tab-focus-right": {
+      "suggested_key": {
+        "default": "Alt+Right"
+      },
+      "description": "Switch tab focus right"
+    }
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
